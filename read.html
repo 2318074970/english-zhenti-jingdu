@@ -1082,6 +1082,10 @@ function deepCard(x, pi, si, detOpen){
   if(last) pick(last.tk + last.y + 'T' + last.n);
 })();
 </script>
+<script>
+/* R813b：GitHub Pages 不携带 data/ 大文件时，桌面页回落到手机主站，避免空白 0 篇 */
+if(location.hostname.endsWith('github.io') && !window.ZT_ENDEEP){location.replace('./');}
+</script>
 </body>
 </html>
 
